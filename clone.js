@@ -8,7 +8,7 @@ var https = require('https');
 
 const fs = require('fs');
 
-let toClone = 110925818393;
+let toClone = 10123456789;
 
 function clonePages() {
   var options = {
@@ -22,7 +22,7 @@ function clonePages() {
   };
 
   // Read the CSV file, parse and map its contents
-  const file = fs.readFileSync('partners.csv', 'utf-8');
+  const file = fs.readFileSync('clonedpages.csv', 'utf-8');
 
   const lines = file.split('\n');
 
